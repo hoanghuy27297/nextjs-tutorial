@@ -18,7 +18,7 @@ const PostCard = ({ post }) => {
       <div className="mb-8 block w-full items-center justify-center text-center lg:flex">
         <div className="mb-4 mr-8 flex w-full items-center justify-center lg:mb-0 lg:w-auto">
           <img
-            src={post.author.photo?.url}
+            src={post.author.photo.url}
             alt={post.author.name}
             className="h-8 w-8 rounded-full object-cover align-middle"
           />
